@@ -49,7 +49,7 @@
         arrowCenterX -= 100;
     }
     CGFloat arrowCenterY = self.mj_h * 0.5;
-    self.arrowView.center = CGPointMake(arrowCenterX, arrowCenterY);
+    self.arrowView.center = CGPointMake(arrowCenterX+50, arrowCenterY);
     
     // 圈圈
     self.loadingView.frame = self.arrowView.frame;

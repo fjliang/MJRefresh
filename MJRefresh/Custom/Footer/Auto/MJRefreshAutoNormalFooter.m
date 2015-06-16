@@ -34,7 +34,7 @@
         arrowCenterX -= 100;
     }
     CGFloat arrowCenterY = self.mj_h * 0.5;
-    self.loadingView.center = CGPointMake(arrowCenterX, arrowCenterY);
+    self.loadingView.center = CGPointMake(arrowCenterX+50, arrowCenterY);
 }
 
 - (void)setState:(MJRefreshState)state
